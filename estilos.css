@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #21215e;
+    color: #ffffff;
+}
+
+.contenedor-principal {
+    display: flex;
+    background: #ffffff;
+}
+
+.barra-lateral {
+    width: 25%;
+    padding: 20px;
+    background-color: #21215e;
+    color: white;
+}
+
+.barra-lateral a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.barra-lateral a:hover {
+    text-decoration: underline;
+}
+
+.barra-lateral img {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.contenido-derecha {
+    width: 75%;
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #21215e;
+    color: white;
+}
+
+.formulario-contacto {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #21215e;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario-contacto h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.formulario-contacto h3 {
+    color: #ecf0f1;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.formulario-contacto p {
+    color: #ecf0f1;
+    margin-bottom: 8px;
+}
+
+.formulario-contacto label {
+    color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=email] {
+    padding: 8px 3px;
+    border: none;
+    border-radius: 15px;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+.proyecto-body {
+    background: linear-gradient(135deg, #badef0, #f5e6d8);
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.proyecto {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.proyecto h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.proyecto h2 {
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.proyecto li {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.color-1 { background-color: #21215e; }
+.color-2 { background-color: #4a235a; }
+.color-3 { background-color: #1a4a3a; }
+.color-4 { background-color: #4a2a1a; }
+
+@media (max-width: 768px) {
+    .barra-lateral {
+        width: 35%;
+        font-size: 11px;
+    }
+
+    .barra-lateral img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .contenido-derecha {
+        width: 65%;
+        padding: 15px;
+        font-size: 13px;
+    }
+}
